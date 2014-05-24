@@ -1,0 +1,51 @@
+@import "../less/bootstrap.less";
+@import "../less/responsive.less";
+@import "./font-awesome.min.css";
+@black:                 #000;
+@grayDarker:            #222;
+@grayDark:              #333;
+@gray:                  #555;
+@grayLight:             #999;
+@grayLighter:           #eee;
+@white:                 #fff;
+@blue:                  #049cdb;
+@blueDark:              #0064cd;
+@green:                 #46a546;
+@red:                   #9d261d;
+@yellow:                #ffc40d;
+@orange:                #f89406;
+@pink:                  #c3325f;
+@purple:                #7a43b6;
+@media(min-width: 1200px){
+	// body{
+	// 	.login{
+	// 		font-size:16px;
+	// 		width:290px;
+	// 	}
+	// }
+}
+/* Escritrio pequeño - Tablet */
+@media(min-width: 768px) and (max-width: 979px){
+	body{
+
+	}
+}
+/* Tablet o smartphone */
+@media(min-width: 480px) and (max-width: 767px){
+	body{
+		.login{
+			width: 100%;
+		}
+	}
+	input{
+		display: inline-block;
+	}
+}
+/* Smartphone */
+@media(max-width: 479px){
+	body{
+		.login{ //No mover si no es necesario
+			width: 95%;
+		}
+	}
+}
